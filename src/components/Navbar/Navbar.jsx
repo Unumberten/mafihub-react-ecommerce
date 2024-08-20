@@ -103,7 +103,7 @@ const NavBar = () => {
               <Link
                 aria-label="Signup"
                 className="navbar-link"
-                to="/Login"
+                to="/Register"
                 onClick={() => setExpand(false)}
               >
                 <span className="nav-link-label">Register</span>
