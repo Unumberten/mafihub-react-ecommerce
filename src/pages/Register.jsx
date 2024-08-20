@@ -11,7 +11,7 @@ const Register = () => {
         e.preventDefault();
         try {
             const response = await axios.post(
-                'http://localhost:4000/api/v1/user/signup',
+                'https://authentication-app-article-1.onrender.com/api/v1/user/signup',
                 { username, email, password },
                 {
                     headers: {
