@@ -31,7 +31,7 @@ const NavBar = () => {
       <Container className="navbar-container">
         <Navbar.Brand to="/">
           <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">Multimart</h1>
+          <h1 className="logo">Agrifarm</h1>
         </Navbar.Brand>
         {/* Media cart and toggle */}
         <div className="d-flex">
@@ -98,6 +98,17 @@ const NavBar = () => {
                 <span className="nav-link-label">Shop</span>
               </Link>
             </Nav.Item>
+     
+            <Nav.Item>
+              <Link
+                aria-label="Signup"
+                className="navbar-link"
+                to="/Login"
+                onClick={() => setExpand(false)}
+              >
+                <span className="nav-link-label">Register</span>
+              </Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Link
@@ -124,7 +135,7 @@ const NavBar = () => {
               </svg>
               <Link
                 aria-label="Go to Cart Page"
-                to="/cart"
+                to="/Cart"
                 className="cart"
                 data-num={cartList.length}
               >
