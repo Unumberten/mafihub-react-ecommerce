@@ -28,7 +28,7 @@ if (!stripe || !elements) {
     setLoading(true);
 
     try {
-        const response = await axios.post('http://localhost:4000/api/v1/payments/create-payment-intent', {
+        const response = await axios.post('https://authentication-app-article-1.onrender.com/api/v1/payments/create-payment-intent', {
             totalPrice,
         });
 
