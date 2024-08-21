@@ -14,37 +14,50 @@ const CheckoutForm = ({ totalPrice }) => {
   const [error, setError] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
 
+
+if (!stripe || !elements) {
+    console.error("Stripe or Elements not initialized.");
+    return;
+}
+
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
 
     try {
-      const response = await axios.post('https://localhost:4000/api/v1/payments/create-payment-intent', {
-        totalPrice,
-      });
+        const response = await axios.post('https://authentication-app-article-1.onrender.com/api/v1/payments/create-payment-intent', {
+            totalPrice,
+        });
 
-      const clientSecret = response.data.clientSecret;
+        const clientSecret = response.data.clientSecret;
 
-      const paymentResult = await stripe.confirmCardPayment(clientSecret, {
-        payment_method: {
-          card: elements.getElement(CardElement),
-        },
-      });
+        const paymentResult = await stripe.confirmCardPayment(clientSecret, {
+            payment_method: {
+                card: elements.getElement(CardElement),
+            },
+        });
 
-      if (paymentResult.error) {
-        setError(`Payment failed: ${paymentResult.error.message}`);
-      } else {
-        setError(null);
-        if (paymentResult.paymentIntent.status === 'succeeded') {
-          alert('Payment Successful!');
+        if (paymentResult.error) {
+            console.error("Payment Error:", paymentResult.error);
+            setError(`Payment failed: ${paymentResult.error.message}`);
+        } else {
+            setError(null);
+            if (paymentResult.paymentIntent.status === 'succeeded') {
+                alert('Payment Successful!');
+            } else {
+                console.error("Payment failed with status:", paymentResult.paymentIntent.status);
+                setError(`Payment failed with status: ${paymentResult.paymentIntent.status}`);
+            }
         }
-      }
     } catch (error) {
-      setError(`Payment failed: ${error.message}`);
+        console.error("Error during payment process:", error);
+        setError(`Payment failed: ${error.message}`);
     }
 
     setLoading(false);
-  };
+};
+
 
   return (
     <form onSubmit={handleSubmit}>
