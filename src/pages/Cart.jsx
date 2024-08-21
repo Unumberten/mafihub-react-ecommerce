@@ -14,6 +14,15 @@ const CheckoutForm = ({ totalPrice }) => {
   const [error, setError] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
 
+  const stripe = useStripe();
+const elements = useElements();
+
+if (!stripe || !elements) {
+    console.error("Stripe or Elements not initialized.");
+    return;
+}
+
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
