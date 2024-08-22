@@ -57,7 +57,7 @@ export const SliderData = [
   {
       id: 4,
       title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      desc: "Enjoy 50% off your first order on select products! Discover the freshest produce, including crunchy carrots rich in beta-carotene, fiber, and essential vitamins, perfect for snacking or enhancing your favorite dishes. Don’t miss out on this exclusive offer—shop now and save!",
       cover: watchSlide,
   },
 ];
