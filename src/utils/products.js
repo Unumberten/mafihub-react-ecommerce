@@ -92,42 +92,42 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "Bananas ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
     discount:30,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bananas are a sweet, nutritious fruit packed with potassium and fiber, perfect for a quick and healthy snack.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bananas are a naturally sweet and versatile fruit, rich in essential nutrients like potassium, vitamin C, and dietary fiber. Perfect for snacking on their own or adding to smoothies and desserts, they offer a quick and healthy energy boost.",
     reviews: [
       {
         rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "HONEST RATINGS",
       },
     ],
     avgRating: 4.5,
   },
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Cabbages ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
     discount:20,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Cabbages are crisp, nutrient-rich vegetables perfect for adding crunch and flavor to a variety of dishes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Cabbages are versatile, crunchy vegetables known for their mild, slightly peppery flavor and impressive nutritional profile. Rich in vitamins C and K, fiber, and antioxidants, they offer numerous health benefits while adding texture and freshness to a wide range of dishes.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "hONEST RATINGS",
       },
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "HONEST RATINGS",
       },
     ],
     avgRating: 4.7,
@@ -230,7 +230,7 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "Stone and Beam Westview ",
+    productName: "bananas",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -316,22 +316,22 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Grapes",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Grapes are juicy, sweet fruits packed with antioxidants and vitamins, perfect for snacking, adding to salads, or making into refreshing beverages.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Grapes are delightful, juicy fruits that come in a variety of colors and flavors, from sweet red and green to rich black varieties. They are not only delicious but also packed with beneficial antioxidants, vitamins C and K, and dietary fiber. Whether enjoyed fresh as a snack, tossed into salads, or transformed into juices and wines, grapes offer a burst of natural sweetness and a range of health benefits.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Honest rates.",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Honest rates",
       },
     ],
     avgRating: 4.7,
@@ -339,22 +339,22 @@ export const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Eggs",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Eggs are a versatile, protein-rich staple, perfect for cooking in countless ways and adding essential nutrients to your meals.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Eggs are a culinary staple renowned for their versatility and rich nutritional profile. Packed with high-quality protein, essential vitamins such as B12 and D, and minerals like iron and selenium, they provide a nutritious boost to a wide array of dishes. Whether scrambled, poached, fried, or baked, eggs adapt easily to various cooking methods and recipes, making them a foundational ingredient in many cuisines.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Honest rates",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Honest rates",
       },
     ],
     avgRating: 4.7,
@@ -362,44 +362,44 @@ export const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Potato",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Potatoes are versatile, starchy vegetables that come in various types and are perfect for baking, boiling, frying, or mashing.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Potatoes are a staple vegetable celebrated for their versatility and rich, starchy flavor. Available in numerous varieties such as russet, red, and Yukon gold, they can be prepared in countless ways—from creamy mashed potatoes and crispy fries to hearty baked dishes and savory stews. Nutritionally, potatoes are a good source of vitamins C and B6, potassium, and dietary fiber, offering both energy and essential nutrients.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "honest rates",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "honest rates",
       },
     ],
     avgRating: 4.7,
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Carrots",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "lorem ipsum",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "lorem ipsum.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Honest rates",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "honest rates",
       },
     ],
     avgRating: 4.7,
@@ -407,22 +407,22 @@ export const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Carrots",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Carrots are crunchy, sweet root vegetables rich in beta-carotene, fiber, and vitamins, ideal for snacking or adding to a variety of dishes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Carrots are vibrant, crunchy root vegetables known for their natural sweetness and impressive nutritional benefits. Rich in beta-carotene, which the body converts to vitamin A, carrots support healthy vision, immune function, and skin health. They are also a great source of dietary fiber, vitamin K1, and antioxidants. Carrots can be enjoyed raw, in salads, or cooked in soups, stews, and stir-fries, offering versatility and a delightful crunch to any meal.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "rates",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "rates",
       },
     ],
     avgRating: 4.7,
