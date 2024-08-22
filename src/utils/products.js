@@ -1,6 +1,6 @@
 import productImg01 from "../Images/banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
-import productImg03 from "../Images/double-sofa-03.png";
+import productImg03 from "../Images/download.jpeg";
 
 import productImg04 from "../Images/single-sofa-01.jpg";
 import productImg05 from "../Images/single-sofa-02.jpg";
