@@ -9,8 +9,8 @@ import productImg007 from "../Images/CARROTS.jpg";
 
 
 
-import productImg07 from "../Images/arm-chair-01.jpg";
-import productImg08 from "../Images/arm-chair-02.jpg";
+import productImg07 from "../Images/Sheeps.jpg";
+import productImg08 from "../Images/Lemons.jpg";
 import productImg09 from "../Images/arm-chair-03.jpg";
 import productImg10 from "../Images/arm-chair-01.jpg";
 
