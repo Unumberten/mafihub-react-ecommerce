@@ -36,13 +36,13 @@ import watchSlide from "../Images/watch-07.png";
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
+      title: "Honests Store",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
+      title: "Honesst store",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: phone08,
   },
