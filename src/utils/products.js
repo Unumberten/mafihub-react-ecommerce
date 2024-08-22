@@ -2,7 +2,7 @@ import productImg01 from "../Images/Banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
 import productImg03 from "../Images/Untitled design.jpg";
 
-import productImg04 from "../Images/grapes.jpeg";
+import productImg04 from "../Images/Grapes.jpg";
 import productImg05 from "../Images/carrot.jpeg";
 import productImg06 from "../Images/Onion.jpeg";
 import productImg007 from "../Images/tomato.jpeg";
