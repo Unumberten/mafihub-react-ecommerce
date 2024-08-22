@@ -11,7 +11,7 @@ import productImg007 from "../Images/CARROTS.jpg";
 
 import productImg07 from "../Images/Sheeps.jpg";
 import productImg08 from "../Images/Lemons.jpg";
-import productImg09 from "../Images/arm-chair-03.jpg";
+import productImg09 from "../Images/Beetroot.jpg";
 import productImg10 from "../Images/arm-chair-01.jpg";
 
 import phone01 from "../Images/phone-01.jpg";
