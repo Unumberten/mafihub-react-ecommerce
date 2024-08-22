@@ -1,4 +1,4 @@
-import productImg01 from "../Images/banana.jpg";
+import productImg01 from "../Images/Banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
 import productImg03 from "../Images/download.jpeg";
 
