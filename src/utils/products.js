@@ -1,11 +1,11 @@
 import productImg01 from "../Images/Banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
-import productImg03 from "../Images/download.jpeg";
+import productImg03 from "../Images/COWS.jpeg";
 
-import productImg04 from "../Images/single-sofa-01.jpg";
-import productImg05 from "../Images/single-sofa-02.jpg";
-import productImg06 from "../Images/single-sofa-03.jpg";
-import productImg007 from "../Images/single-sofa-04.png";
+import productImg04 from "../Images/grapes.jpeg";
+import productImg05 from "../Images/carrot.jpeg";
+import productImg06 from "../Images/Onion.jpeg";
+import productImg007 from "../Images/tomato.jpeg";
 
 import productImg07 from "../Images/arm-chair-01.jpg";
 import productImg08 from "../Images/arm-chair-02.jpg";
