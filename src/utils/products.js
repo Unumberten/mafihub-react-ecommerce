@@ -42,7 +42,7 @@ export const SliderData = [
   },
   {
       id: 2,
-      title: "Honesst store",
+      title: "Honest store",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: phone08,
   },
