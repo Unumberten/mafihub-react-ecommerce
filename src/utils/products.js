@@ -38,7 +38,7 @@ export const SliderData = [
       id: 1,
       title: "Taung Basket",
       desc: "
-Discover premium farm stock at Taung Basket, where quality and care come together. Browse our selection of healthy, well-bred animals and find your next farm addition today!",
+Discover premium farm stock at Taung Basket, where quality and care come together. Browse our selection of healthy, well-bred animals,Vegetables and find your next farm addition today!",
       cover: sofaSlide,
   },
   {
