@@ -1,6 +1,6 @@
 import productImg01 from "../Images/Banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
-import productImg03 from "../Images/COWS.jpeg";
+import productImg03 from "../Images/Untitled design.jpg";
 
 import productImg04 from "../Images/grapes.jpeg";
 import productImg05 from "../Images/carrot.jpeg";
