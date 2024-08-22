@@ -5,6 +5,8 @@ import productImg03 from "../Images/Untitled design.jpg";
 import productImg04 from "../Images/Grapes.jpg";
 import productImg05 from "../Images/eggs.jpg";
 import productImg06 from "../Images/potato.jpg";
+import productImg007 from "../Images/CARROTS.jpg";
+
 
 
 import productImg07 from "../Images/arm-chair-01.jpg";
