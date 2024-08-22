@@ -36,8 +36,9 @@ import watchSlide from "../Images/watch-07.png";
 export const SliderData = [
   {
       id: 1,
-      title: "Mokgotla Farming",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Taung Basket",
+      desc: "
+Discover premium farm stock at Taung Basket, where quality and care come together. Browse our selection of healthy, well-bred animals and find your next farm addition today!",
       cover: sofaSlide,
   },
   {
