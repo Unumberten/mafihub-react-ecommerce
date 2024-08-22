@@ -3,9 +3,9 @@ import productImg02 from "../Images/cabbage.jpg";
 import productImg03 from "../Images/Untitled design.jpg";
 
 import productImg04 from "../Images/Grapes.jpg";
-import productImg05 from "../Images/carrot.jpeg";
-import productImg06 from "../Images/Onion.jpeg";
-import productImg007 from "../Images/tomato.jpeg";
+import productImg05 from "../Images/eggs.jpg";
+import productImg06 from "../Images/potato.jpg";
+
 
 import productImg07 from "../Images/arm-chair-01.jpg";
 import productImg08 from "../Images/arm-chair-02.jpg";
