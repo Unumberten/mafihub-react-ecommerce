@@ -18,7 +18,7 @@ import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/Apples.jpg";
 import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
-import phone05 from "../Images/Corn.jpg";
+import phone05 from "../Images/Pecan nut.jpg";
 import phone06 from "../Images/Spinach.jpg";
 import phone08 from "../Images/phone-08.png";
 
@@ -589,7 +589,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Corns",
+    productName: "Peacan Nuts",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
