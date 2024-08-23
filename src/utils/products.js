@@ -27,8 +27,8 @@ import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
-import wireless01 from "../Images/Agric.png";
-import wireless02 from "../Images/livestock.jpg";
+import wireless01 from "../Images/wireless-01.png";
+import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
@@ -46,7 +46,7 @@ export const SliderData = [
       id: 2,
       title: "Livestock",
       desc: "Explore our premium selection of livestock, carefully raised to meet the highest standards of health and quality. From robust cattle and hardy sheep to energetic goats and fine-breed pigs, our animals are bred for excellence and ready to thrive on your farm.",
-      cover: wireless02,
+      cover: phone08,
   },
   {
       id: 3,
@@ -134,15 +134,15 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Lemons",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
     discount:15,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Lemons are tangy, vibrant fruits packed with vitamin C, perfect for adding zest to dishes, beverages, and desserts.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Lemons are bright, tangy fruits renowned for their refreshing flavor and high vitamin C content. Their versatile acidity enhances a variety of dishes, from savory meals and marinades to sweet treats and beverages. Packed with antioxidants and essential nutrients, lemons offer numerous health benefits, including supporting immune function and aiding digestion. ",
     reviews: [
       {
         rating: 4.6,
@@ -157,15 +157,15 @@ export const discoutProducts = [
   },
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Beetroot",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
     discount:35,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Beetroot is a sweet, earthy root vegetable rich in nutrients and antioxidants, perfect for salads, soups, and juices.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Beetroot is a vibrant root vegetable known for its deep red color and sweet, earthy flavor. Packed with essential nutrients such as folate, manganese, and vitamins C and B6, beetroots offer numerous health benefits, including improved blood flow and enhanced stamina. Their natural antioxidants and anti-inflammatory properties make them a valuable addition to a balanced diet. ",
     reviews: [
       {
         rating: 4.6,
@@ -234,10 +234,10 @@ export const products = [
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+     shortDesc:
+      "Bananas are a sweet, nutritious fruit packed with potassium and fiber, perfect for a quick and healthy snack.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bananas are a naturally sweet and versatile fruit, rich in essential nutrients like potassium, vitamin C, and dietary fiber. Perfect for snacking on their own or adding to smoothies and desserts, they offer a quick and healthy energy boost.",
     reviews: [
       {
         rating: 4.7,
@@ -249,15 +249,15 @@ export const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Cabbages ",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Cabbages are crisp, nutrient-rich vegetables perfect for adding crunch and flavor to a variety of dishes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
+      "Cabbages are versatile, crunchy vegetables known for their mild, slightly peppery flavor and impressive nutritional profile. Rich in vitamins C and K, fiber, and antioxidants, they offer numerous health benefits while adding texture and freshness to a wide range of dishes.",
+       reviews: [
       {
         rating: 4.8,
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -294,15 +294,15 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Cabbages",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  shortDesc:
+      "Cabbages are crisp, nutrient-rich vegetables perfect for adding crunch and flavor to a variety of dishes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
+      "Cabbages are versatile, crunchy vegetables known for their mild, slightly peppery flavor and impressive nutritional profile. Rich in vitamins C and K, fiber, and antioxidants, they offer numerous health benefits while adding texture and freshness to a wide range of dishes.",
+   reviews: [
       {
         rating: 4.8,
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -362,7 +362,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Potato",
+    productName: "Potatoes",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -384,14 +384,14 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Carrots",
+    productName: "Sheeps",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
     shortDesc:
-      "lorem ipsum",
+      "Sheep are hardy, adaptable livestock known for their wool, meat, and milk, making them a valuable addition to any farm.",
     description:
-      "lorem ipsum.",
+      "Sheep are versatile and resilient livestock, prized for their wool, meat, and milk. With their gentle demeanor and adaptability to various environments, they are ideal for a range of farming systems. Sheep produce high-quality wool used in textiles, flavorful meat such as lamb and mutton, and nutritious milk for cheese and other dairy products.",
     reviews: [
       {
         rating: 4.6,
@@ -453,14 +453,14 @@ export const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Beetroot",
     imgUrl: productImg09,
     category: "chair",
     price: 112,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Beetroot is a sweet, earthy root vegetable rich in nutrients and antioxidants, perfect for salads, soups, and juices.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Beetroot is a vibrant root vegetable known for its deep red color and sweet, earthy flavor. Packed with essential nutrients such as folate, manganese, and vitamins C and B6, beetroots offer numerous health benefits, including improved blood flow and enhanced stamina. Their natural antioxidants and anti-inflammatory properties make them a valuable addition to a balanced diet.",
     reviews: [
       {
         rating: 4.6,
