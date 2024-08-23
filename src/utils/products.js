@@ -16,7 +16,7 @@ import productImg10 from "../Images/Wheat.jpg";
 
 import phone01 from "../Images/phone-01.jpg";
 import phone02 from "../Images/phone-02.jpg";
-import phone03 from "../Images/phone-03.png";
+import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
 import phone05 from "../Images/phone-05.jpg";
 import phone06 from "../Images/phone-06.jpg";
@@ -180,7 +180,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Strawberries",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -430,7 +430,7 @@ export const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Lemons",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -543,7 +543,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Strawberries",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -566,7 +566,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Watermelon",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
