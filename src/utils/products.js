@@ -20,7 +20,7 @@ import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
 import phone05 from "../Images/Pecan nut.jpg";
 import phone06 from "../Images/Spinach.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone08 from "../Images/Lucern.png";
 
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
