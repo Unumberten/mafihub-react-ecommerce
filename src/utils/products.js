@@ -27,7 +27,7 @@ import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
-import wireless01 from "../Images/wireless-01.png";
+import wireless01 from "../Images/Agric.png";
 import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
