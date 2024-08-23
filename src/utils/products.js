@@ -18,9 +18,9 @@ import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/Apples.jpg";
 import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
-import phone05 from "../Images/phone-05.jpg";
-import phone06 from "../Images/phone-06.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone05 from "../Images/broilers.jpg";
+import phone06 from "../Images/Corn.jpg";
+import phone08 from "../Images/.jpg";
 
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
