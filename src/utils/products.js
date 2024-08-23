@@ -14,7 +14,7 @@ import productImg08 from "../Images/Lemons.jpg";
 import productImg09 from "../Images/Beetroot.jpg";
 import productImg10 from "../Images/Wheat.jpg";
 
-import phone01 from "../Images/phone-01.jpg";
+import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/phone-02.jpg";
 import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
@@ -476,7 +476,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "Onions",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
