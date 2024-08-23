@@ -15,7 +15,7 @@ import productImg09 from "../Images/Beetroot.jpg";
 import productImg10 from "../Images/Wheat.jpg";
 
 import phone01 from "../Images/Onions.jpg";
-import phone02 from "../Images/phone-02.jpg";
+import phone02 from "../Images/Apples.jpg";
 import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
 import phone05 from "../Images/phone-05.jpg";
@@ -203,7 +203,7 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "Watermelon",
+    productName: "Watermelons",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -520,7 +520,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Apples",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
