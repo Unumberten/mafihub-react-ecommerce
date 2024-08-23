@@ -18,9 +18,9 @@ import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/Apples.jpg";
 import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
-import phone05 from "../Images/Pecan nut.jpg";
-import phone06 from "../Images/Spinach.jpg";
-import phone08 from "../Images/Lucern.jpg";
+import phone05 from "../Images/phone-05.jpg";
+import phone06 from "../Images/phone-06.jpg";
+import phone08 from "../Images/phone-08.png";
 
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
@@ -186,9 +186,9 @@ export const discoutProducts = [
     price: 599,
     discount:10,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Strawberries are sweet, juicy fruits rich in vitamin C and antioxidants, perfect for snacking, desserts, and salads.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Strawberries are vibrant, flavorful fruits known for their bright red color and juicy sweetness. Packed with vitamin C, fiber, and antioxidants, they provide a refreshing burst of flavor while offering numerous health benefits, including supporting immune function and reducing inflammation. Whether enjoyed fresh, in smoothies, or as a topping for desserts and salads, strawberries add both taste and nutritional value to your meals.",
     reviews: [
       {
         rating: 4.8,
@@ -209,9 +209,9 @@ export const discoutProducts = [
     price: 799,
     discount:5,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Watermelon is a refreshing, juicy fruit packed with hydration and vitamins, perfect for cooling off on hot days or adding a sweet touch to any meal.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Watermelon is a large, juicy fruit known for its vibrant red flesh and refreshing taste. Bursting with water—over 90%—it provides excellent hydration, making it a perfect choice for hot days. Rich in vitamins A and C, as well as antioxidants like lycopene, watermelon supports overall health and well-being. Its naturally sweet flavor and high water content make it an ideal snack or dessert, and it can also be used in salads, smoothies, and even savory dishes.",
     reviews: [
       {
         rating: 4.8,
@@ -434,11 +434,11 @@ export const products = [
     imgUrl: productImg08,
     category: "chair",
     price: 89,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      shortDesc:
+      "Lemons are tangy, vibrant fruits packed with vitamin C, perfect for adding zest to dishes, beverages, and desserts.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
+      "Lemons are bright, tangy fruits renowned for their refreshing flavor and high vitamin C content. Their versatile acidity enhances a variety of dishes, from savory meals and marinades to sweet treats and beverages. Packed with antioxidants and essential nutrients, lemons offer numerous health benefits, including supporting immune function and aiding digestion. ",
+      reviews: [
       {
         rating: 4.6,
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -481,9 +481,9 @@ export const products = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Onions are versatile, flavorful bulbs that add depth to a wide range of dishes, from soups and stews to salads and sandwiches.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Onions are essential kitchen staples known for their robust flavor and versatility. Available in various types—such as yellow, red, and white onions—they bring a depth of taste to countless recipes, including soups, stews, sautés, and salads. Rich in vitamins C and B6, as well as antioxidants, onions offer not only a flavorful kick but also numerous health benefits, including supporting heart health and reducing inflammation.",
     reviews: [
       {
         rating: 4.8,
@@ -525,9 +525,9 @@ export const products = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Apples are crisp, sweet fruits packed with fiber and vitamins, perfect for snacking, baking, and adding to a variety of dishes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Apples are versatile and refreshing fruits with a crisp texture and sweet-tart flavor. Available in numerous varieties, from tart Granny Smiths to sweet Fuji apples, they offer a wealth of health benefits. Rich in dietary fiber, vitamin C, and antioxidants, apples support digestive health, boost immunity, and help reduce the risk of chronic diseases. ",
     reviews: [
       {
         rating: 4.8,
@@ -547,10 +547,10 @@ export const products = [
     imgUrl: phone03,
     category: "mobile",
     price: 599,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+   shortDesc:
+      "Strawberries are sweet, juicy fruits rich in vitamin C and antioxidants, perfect for snacking, desserts, and salads.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Strawberries are vibrant, flavorful fruits known for their bright red color and juicy sweetness. Packed with vitamin C, fiber, and antioxidants, they provide a refreshing burst of flavor while offering numerous health benefits, including supporting immune function and reducing inflammation. Whether enjoyed fresh, in smoothies, or as a topping for desserts and salads, strawberries add both taste and nutritional value to your meals.",
     reviews: [
       {
         rating: 4.8,
@@ -571,9 +571,9 @@ export const products = [
     category: "mobile",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Watermelon is a refreshing, juicy fruit packed with hydration and vitamins, perfect for cooling off on hot days or adding a sweet touch to any meal.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Watermelon is a large, juicy fruit known for its vibrant red flesh and refreshing taste. Bursting with water—over 90%—it provides excellent hydration, making it a perfect choice for hot days. Rich in vitamins A and C, as well as antioxidants like lycopene, watermelon supports overall health and well-being. Its naturally sweet flavor and high water content make it an ideal snack or dessert, and it can also be used in salads, smoothies, and even savory dishes. ",
     reviews: [
       {
         rating: 4.8,
@@ -589,7 +589,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Peacan Nuts",
+    productName: "Apple iPhone 13 Pro",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -612,7 +612,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Spinach",
+    productName: "Samsung Galaxy S22",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -816,3 +816,4 @@ export const products = [
   },
 
 ];
+
