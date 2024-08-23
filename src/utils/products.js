@@ -589,7 +589,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Chicken Broilers",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -612,7 +612,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Corns",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
