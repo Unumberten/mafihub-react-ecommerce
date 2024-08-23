@@ -44,14 +44,14 @@ export const SliderData = [
   },
   {
       id: 2,
-      title: "Honest store",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Livestock",
+      desc: "Explore our premium selection of livestock, carefully raised to meet the highest standards of health and quality. From robust cattle and hardy sheep to energetic goats and fine-breed pigs, our animals are bred for excellence and ready to thrive on your farm.",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "Agri-Tech",
+      desc: "Agri-Tech combines advanced technology with farming to boost productivity and sustainability through smart tools and solutions.",
       cover: wireless01,
   },
   {
