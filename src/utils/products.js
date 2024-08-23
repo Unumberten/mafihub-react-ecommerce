@@ -28,7 +28,7 @@ import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
 import wireless01 from "../Images/Agric.png";
-import wireless02 from "../Images/wireless-02.png";
+import wireless02 from "../Images/livestock.jpg";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
@@ -46,7 +46,7 @@ export const SliderData = [
       id: 2,
       title: "Livestock",
       desc: "Explore our premium selection of livestock, carefully raised to meet the highest standards of health and quality. From robust cattle and hardy sheep to energetic goats and fine-breed pigs, our animals are bred for excellence and ready to thrive on your farm.",
-      cover: phone08,
+      cover: wireless02,
   },
   {
       id: 3,
