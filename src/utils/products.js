@@ -498,14 +498,14 @@ export const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Wheat",
     imgUrl: productImg10,
     category: "chair",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Wheat is a staple grain used to make a variety of foods, from bread and pasta to pastries, providing essential carbohydrates and nutrients.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Wheat is a fundamental grain that serves as a cornerstone in global diets. Its versatility makes it ideal for producing a wide range of foods, including bread, pasta, cereals, and baked goods. Rich in carbohydrates, fiber, and essential nutrients like B vitamins and iron, wheat supports energy levels and overall health.",
     reviews: [
       {
         rating: 4.6,
