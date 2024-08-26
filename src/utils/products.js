@@ -230,7 +230,7 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "bananas",
+    productName: "Bananas",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -566,7 +566,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "Watermelon",
+    productName: "WatermelonS",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -794,7 +794,7 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Spinach",
     imgUrl: wireless04,
     category: "wireless",
     price: 139,
