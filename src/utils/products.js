@@ -1,4 +1,4 @@
-import productImg01 from "../Images/Banana.jpg";
+import productImg01 from "../Images/Sheeps.jpg";
 import productImg02 from "../Images/cabbage.jpg";
 import productImg03 from "../Images/Untitled design.jpg";
 
@@ -92,7 +92,7 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Bananas ",
+    productName: "Sheeps ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
