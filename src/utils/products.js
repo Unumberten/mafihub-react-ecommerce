@@ -22,7 +22,7 @@ import phone05 from "../Images/broilers.jpg";
 import phone06 from "../Images/Corn.jpg";
 import phone08 from "../Images/Spinach.jpg";
 
-import watch01 from "../Images/watch-01.jpg";
+import watch01 from "../Images/Agric.png";
 import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
@@ -52,7 +52,7 @@ export const SliderData = [
       id: 3,
       title: "Agri-Tech",
       desc: "Agri-Tech combines advanced technology with farming to boost productivity and sustainability through smart tools and solutions.",
-      cover: wireless01,
+      cover: watch01,
   },
   {
       id: 4,
