@@ -635,7 +635,7 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "",
     imgUrl: watch01,
     category: "watch",
     price: 299,
@@ -732,9 +732,9 @@ export const products = [
     category: "wireless",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Nuts are nutrient-dense snacks packed with healthy fats, protein, and essential vitamins. Enjoy them raw, roasted, or in a variety of dishes for a crunchy, satisfying boost.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Nuts are a highly nutritious food group known for their rich content of healthy fats, protein, fiber, and essential vitamins and minerals. Varieties like almonds, walnuts, cashews, and pistachios offer a delicious and crunchy addition to both sweet and savory dishes. Whether eaten raw, roasted, or as part of a recipe, nuts provide numerous health benefits, including improved heart health, enhanced brain function, and better digestive health.",
     reviews: [
       {
         rating: 4.8,
@@ -777,9 +777,9 @@ export const products = [
     category: "wireless",
     price: 169,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Peaches are juicy, fragrant fruits with a sweet, tangy flavor. Perfect for eating fresh, baking, or adding to desserts and salads.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Peaches are delectable stone fruits known for their vibrant color and succulent, sweet flavor. With their fragrant aroma and juicy texture, peaches are a versatile ingredient in both sweet and savory dishes. Enjoy them fresh as a refreshing snack, bake them into pies and cobblers, or incorporate them into salads and salsas for a burst of natural sweetness.",
     reviews: [
       {
         rating: 4.8,
