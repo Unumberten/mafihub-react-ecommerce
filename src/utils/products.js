@@ -27,8 +27,8 @@ import watch02 from "../Images/cows.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
-import wireless01 from "../Images/wireless-01.png";
-import wireless02 from "../Images/wireless-02.png";
+import wireless01 from "../Images/Nuts.jpg";
+import wireless02 from "../Images/Peachess.jpg";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
@@ -727,7 +727,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Nuts",
     imgUrl: wireless01,
     category: "wireless",
     price: 199,
@@ -772,7 +772,7 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Peaches",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
