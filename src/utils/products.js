@@ -16,7 +16,7 @@ import productImg10 from "../Images/Wheat.jpg";
 
 import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/Apples.jpg";
-import phone03 from "../Images/Strawberries.jpg";
+import phone03 from "../Images/Lucern bales.jpg";
 import phone04 from "../Images/watermelon.png";
 import phone05 from "../Images/broilers.jpg";
 import phone06 from "../Images/Corn.jpg";
@@ -180,7 +180,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Strawberries",
+    productName: "Lucern Bales",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
