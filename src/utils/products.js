@@ -22,7 +22,7 @@ import phone05 from "../Images/broilers.jpg";
 import phone06 from "../Images/Corn.jpg";
 import phone08 from "../Images/Spinach.jpg";
 
-import watch01 from "../Images/Green peppers.jpg";
+import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
@@ -594,9 +594,9 @@ export const products = [
     category: "mobile",
     price: 899,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Chicken broilers are specially bred for tender, juicy meat and quick growth. Ideal for grilling, roasting, or frying, they offer delicious flavor and versatility in any dish.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Chicken broilers are a popular choice for those seeking high-quality, tender meat. Bred specifically for their fast growth and succulent flesh, broilers are perfect for a wide range of cooking methods, including grilling, roasting, and frying. Their mild flavor and moist texture make them a versatile ingredient in numerous recipes, from classic comfort foods to gourmet dishes. Rich in protein and easy to cook, broilers are an excellent addition to any meal, providing both taste and convenience.",
     reviews: [
       {
         rating: 4.8,
@@ -617,9 +617,9 @@ export const products = [
     category: "mobile",
     price: 699,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Corn is a sweet, versatile vegetable perfect for grilling, boiling, or adding to a variety of dishes. Enjoy its juicy kernels and rich flavor in countless recipes.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Corn, a staple in kitchens worldwide, is celebrated for its sweet flavor and versatility. This golden vegetable is harvested from the ear of the maize plant and is enjoyed in various forms, from fresh on the cob to frozen or canned kernels. Whether you’re grilling it for a smoky char, boiling it for a tender bite, or incorporating it into soups, salads, and casseroles, corn adds a delightful burst of flavor and texture to your meals.",
     reviews: [
       {
         rating: 4.8,
@@ -635,7 +635,7 @@ export const products = [
 
   {
     id: "16",
-    productName: "Green Peppers",
+    productName: "Rolex Watch",
     imgUrl: watch01,
     category: "watch",
     price: 299,
