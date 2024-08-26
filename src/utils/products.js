@@ -272,14 +272,14 @@ export const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Cows",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Cows are versatile livestock known for their role in dairy production and meat. They provide milk, cheese, and beef, and play a key role in agriculture and farming.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Cows are integral to agriculture and farming, valued for both their dairy and meat products. Dairy cows are bred to produce high quantities of milk, which is used to create a variety of products, including cheese, butter, and yogurt. Beef cows are raised for their tender and flavorful meat, which is a staple in many diets around the world.",
     reviews: [
       {
         rating: 4.6,
