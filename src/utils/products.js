@@ -30,7 +30,7 @@ import watch04 from "../Images/watch-04.jpg";
 import wireless01 from "../Images/Nuts.jpg";
 import wireless02 from "../Images/Peachess.jpg";
 import wireless03 from "../Images/TOMATOES.jpg";
-import wireless04 from "../Images/wireless-04.png";
+import wireless04 from "../Images/Spinach.jpg";
 
 import sofaSlide from "../Images/hero-img.png";
 import watchSlide from "../Images/watch-07.png";
