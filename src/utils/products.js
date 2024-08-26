@@ -92,7 +92,7 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Sheeps ",
+    productName: "Sheep ",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
