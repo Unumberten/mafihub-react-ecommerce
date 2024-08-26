@@ -22,7 +22,7 @@ import phone05 from "../Images/broilers.jpg";
 import phone06 from "../Images/Corn.jpg";
 import phone08 from "../Images/Spinach.jpg";
 
-import watch01 from "../Images/watch-01.jpg";
+import watch01 from "../Images/Green peppers.jpg";
 import watch02 from "../Images/watch-02.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
@@ -635,7 +635,7 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Green Peppers",
     imgUrl: watch01,
     category: "watch",
     price: 299,
