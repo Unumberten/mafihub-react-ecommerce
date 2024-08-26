@@ -29,7 +29,7 @@ import watch04 from "../Images/watch-04.jpg";
 
 import wireless01 from "../Images/Nuts.jpg";
 import wireless02 from "../Images/Peachess.jpg";
-import wireless03 from "../Images/wireless-03.png";
+import wireless03 from "../Images/TOMATOES.jpg";
 import wireless04 from "../Images/wireless-04.png";
 
 import sofaSlide from "../Images/hero-img.png";
@@ -750,7 +750,7 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "Tomatoes",
     imgUrl: wireless03,
     category: "wireless",
     price: 199,
