@@ -1,4 +1,4 @@
-import productImg01 from "../Images/Sheeps.jpg";
+import productImg01 from "../Images/Banana.jpg";
 import productImg02 from "../Images/cabbage.jpg";
 import productImg03 from "../Images/Untitled design.jpg";
 
@@ -16,7 +16,7 @@ import productImg10 from "../Images/Wheat.jpg";
 
 import phone01 from "../Images/Onions.jpg";
 import phone02 from "../Images/Apples.jpg";
-import phone03 from "../Images/Lucern bales.jpg";
+import phone03 from "../Images/Strawberries.jpg";
 import phone04 from "../Images/watermelon.png";
 import phone05 from "../Images/broilers.jpg";
 import phone06 from "../Images/Corn.jpg";
@@ -92,7 +92,7 @@ export const serviceData = [
 export const discoutProducts = [
   {
     id: "01",
-    productName: "Sheep ",
+    productName: "Banana",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -111,7 +111,7 @@ export const discoutProducts = [
   },
   {
     id: "02",
-    productName: "Cabbages ",
+    productName: "Cabbage",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -134,7 +134,7 @@ export const discoutProducts = [
   },
   {
     id: "08",
-    productName: "Lemons",
+    productName: "Lemon",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -180,7 +180,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Lucern Bales",
+    productName: "Strawberry",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -203,7 +203,7 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "Watermelons",
+    productName: "Watermelon",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -230,7 +230,7 @@ export const discoutProducts = [
 export const products = [
   {
     id: "01",
-    productName: "Bananas",
+    productName: "Banana",
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
@@ -249,7 +249,7 @@ export const products = [
 
   {
     id: "02",
-    productName: "Cabbages ",
+    productName: "Cabbage",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -272,7 +272,7 @@ export const products = [
 
   {
     id: "03",
-    productName: "Cows",
+    productName: "Cow",
     imgUrl: productImg03,
     category: "sofa",
     price: 173,
@@ -294,7 +294,7 @@ export const products = [
   },
   {
     id: "26",
-    productName: "Cabbages",
+    productName: "Cabbage",
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
@@ -316,7 +316,7 @@ export const products = [
   },
   {
     id: "04",
-    productName: "Grapes",
+    productName: "Grape",
     imgUrl: productImg04,
     category: "sofa",
     price: 163,
@@ -339,7 +339,7 @@ export const products = [
 
   {
     id: "05",
-    productName: "Eggs",
+    productName: "Egg",
     imgUrl: productImg05,
     category: "sofa",
     price: 163,
@@ -362,7 +362,7 @@ export const products = [
 
   {
     id: "06",
-    productName: "Potatoes",
+    productName: "Potato",
     imgUrl: productImg06,
     category: "sofa",
     price: 163,
@@ -384,7 +384,7 @@ export const products = [
   },
   {
     id: "07",
-    productName: "Sheeps",
+    productName: "Sheep",
     imgUrl: productImg07,
     category: "chair",
     price: 99,
@@ -407,7 +407,7 @@ export const products = [
 
   {
     id: "27",
-    productName: "Carrots",
+    productName: "Carrot",
     imgUrl: productImg007,
     category: "sofa",
     price: 173,
@@ -430,7 +430,7 @@ export const products = [
 
   {
     id: "08",
-    productName: "Lemons",
+    productName: "Lemon",
     imgUrl: productImg08,
     category: "chair",
     price: 89,
@@ -476,7 +476,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Onions",
+    productName: "Onion",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
@@ -520,7 +520,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apples",
+    productName: "Apple",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
@@ -543,7 +543,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Strawberries",
+    productName: "Strawberry",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -566,7 +566,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "WatermelonS",
+    productName: "Watermelon",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -612,7 +612,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Corns",
+    productName: "Corn",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -635,14 +635,14 @@ export const products = [
 
   {
     id: "16",
-    productName: "",
+    productName: "Tractor",
     imgUrl: watch01,
     category: "watch",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A tractor is a powerful agricultural machine designed for various tasks such as plowing, planting, and hauling. Essential for modern farming, it enhances efficiency and productivity on the field."!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "A tractor is a versatile and essential piece of machinery in modern agriculture, engineered to handle a wide range of tasks that increase farm efficiency and productivity. Equipped with powerful engines and durable tires, tractors are used for plowing, planting, cultivating, and hauling heavy loads. They can be fitted with various attachments and implements, such as plows, harrows, and seeders, to perform specific functions.",
     reviews: [
       {
         rating: 4.8,
@@ -658,14 +658,14 @@ export const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Cow",
     imgUrl: watch02,
     category: "watch",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Cows are versatile livestock known for their role in dairy production and meat. They provide milk, cheese, and beef, and play a key role in agriculture and farming.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Cows are integral to agriculture and farming, valued for both their dairy and meat products. Dairy cows are bred to produce high quantities of milk, which is used to create a variety of products, including cheese, butter, and yogurt. Beef cows are raised for their tender and flavorful meat, which is a staple in many diets around the world.",
     reviews: [
       {
         rating: 4.8,
@@ -755,9 +755,9 @@ export const products = [
     category: "wireless",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Tomatoes are versatile, juicy fruits known for their vibrant color and tangy flavor. Perfect for salads, sauces, and countless dishes, they offer both taste and nutritional benefits",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Tomatoes are a staple in kitchens worldwide, celebrated for their juicy texture and rich, tangy flavor. Available in a variety of types and colors, including red, yellow, and heirloom, tomatoes are incredibly versatile and can be used fresh in salads, cooked into sauces, or incorporated into a wide range of recipes.",
     reviews: [
       {
         rating: 4.8,
@@ -799,9 +799,9 @@ export const products = [
     category: "wireless",
     price: 139,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Spinach is a nutrient-rich leafy green known for its mild flavor and versatility. Ideal for salads, smoothies, and cooked dishes, it’s packed with vitamins and minerals.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Spinach is a highly nutritious leafy green vegetable valued for its mild flavor and versatility in the kitchen. Rich in vitamins A, C, and K, as well as minerals like iron and calcium, spinach offers numerous health benefits, including supporting eye health, boosting immunity, and promoting strong bones. Whether enjoyed fresh in salads, blended into smoothies, or cooked into a variety of dishes such as soups, stews, and sautés, spinach enhances meals with its vibrant color and tender texture.",
     reviews: [
       {
         rating: 4.8,
