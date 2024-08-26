@@ -23,7 +23,7 @@ import phone06 from "../Images/Corn.jpg";
 import phone08 from "../Images/Spinach.jpg";
 
 import watch01 from "../Images/Agric.png";
-import watch02 from "../Images/watch-02.jpg";
+import watch02 from "../Images/cows.jpg";
 import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
@@ -46,7 +46,7 @@ export const SliderData = [
       id: 2,
       title: "Livestock",
       desc: "Explore our premium selection of livestock, carefully raised to meet the highest standards of health and quality. From robust cattle and hardy sheep to energetic goats and fine-breed pigs, our animals are bred for excellence and ready to thrive on your farm.",
-      cover: phone08,
+      cover: watch02,
   },
   {
       id: 3,
