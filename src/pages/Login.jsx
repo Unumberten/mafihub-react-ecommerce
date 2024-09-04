@@ -1,96 +1,66 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useAuth } from './AuthContext'; // Import AuthContext for managing authentication
 
 const Login = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [message, setMessage] = useState('');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
 
-    const handleLogin = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post(
-                'https://mafihub-react-ecommerce.onrender.com/api/v1/user/login',
-                { username, password },
-                {
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                }
-            );
-            setMessage(response.data.message);
-            console.log('Token:', response.data.token);
-        } catch (error) {
-            if (error.response && error.response.data) {
-                setMessage(error.response.data.message || 'Login failed');
-            } else {
-                setMessage('Login failed');
-            }
+  const navigate = useNavigate(); // Initialize useNavigate
+  const { login } = useAuth(); // Destructure login from AuthContext
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        'https://authentication-app-article-1.onrender.com/api/v1/user/login', // Update with your backend endpoint
+        { username, password },
+        {
+          headers: {
+            'Content-Type': 'application/json',
+          },
         }
-    };
+      );
+      setMessage(response.data.message);
+      console.log('Token:', response.data.token);
 
-    return (
-        <div style={styles.container}>
-            <h2>Login</h2>
-            <form onSubmit={handleLogin}>
-                <div style={styles.formGroup}>
-                    <label>Username</label>
-                    <input
-                        type="text"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
-                        style={styles.input}
-                        placeholder="Enter username"
-                    />
-                </div>
-                <div style={styles.formGroup}>
-                    <label>Password</label>
-                    <input
-                        type="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        style={styles.input}
-                        placeholder="Enter password"
-                    />
-                </div>
-                <button type="submit" style={styles.button}>Login</button>
-            </form>
-            {message && <p style={styles.message}>{message}</p>}
-        </div>
-    );
-};
+      // Store the token and update authentication state
+      login(response.data.token); // Call the login function with the token
 
-const styles = {
-    container: {
-        width: '300px',
-        margin: '0 auto',
-        padding: '20px',
-        backgroundColor: 'white',
-        boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-        borderRadius: '8px',
-        textAlign: 'center',
-    },
-    formGroup: {
-        marginBottom: '15px',
-    },
-    input: {
-        width: '100%',
-        padding: '8px',
-        boxSizing: 'border-box',
-    },
-    button: {
-        width: '100%',
-        padding: '10px',
-        backgroundColor: '#28a745',
-        color: 'white',
-        border: 'none',
-        cursor: 'pointer',
-        borderRadius: '4px',
-    },
-    message: {
-        marginTop: '20px',
-        color: 'red',
-    },
+      // Navigate to the profile or cart page after successful login
+      navigate('/profile'); // You can replace '/profile' with '/cart' or any route you want to redirect to
+    } catch (error) {
+      if (error.response && error.response.data) {
+        setMessage(error.response.data.message || 'Login failed');
+      } else {
+        setMessage('Login failed');
+      }
+    }
+  };
+
+  return (
+    <div>
+      <h2>Login</h2>
+      <form onSubmit={handleLogin}>
+        <input
+          type="text"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Password"
+        />
+        <button type="submit">Login</button>
+      </form>
+      {message && <p>{message}</p>}
+    </div>
+  );
 };
 
 export default Login;
